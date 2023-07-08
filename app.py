@@ -2,7 +2,7 @@ import streamlit as st
 import pickle 
 import pandas as pd
 from PIL import Image
-st.set_page_config(page_title="EasyFlight.com",layout='wide', initial_sidebar_state='expanded'))
+st.set_page_config(page_title="EasyFlight.com",layout='wide', initial_sidebar_state='expanded')
 df= pd.read_excel("Data_Train.xlsx")
 st.title("EasyFlights.com")
 col= st.columns(3)
