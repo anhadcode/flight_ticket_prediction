@@ -67,7 +67,7 @@ if st.button("Cheapest flights"):
         l.append([i,result[0][0], result[0][1]])
         #l.append([result])
     #sorted the price 
-    l= sorted(l, key=lambda x: x[1])[:5]
+    l= sorted(l, key=lambda x: x[1])
     col=st.columns([0.4,4,1])
     for i in l:
         with col[0]:
